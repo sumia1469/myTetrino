@@ -1,0 +1,15 @@
+{
+    "name": "myTetrino",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error no yrsy specified\" && exit 1",
+        "build":"pkg server.js --output myTetrino.exe"
+    },
+    "bin": {
+        "myTetrino":"server.js"
+    },"keywords": [],
+    "author": "",
+    "license":"ISC",
+    "description":""
+}

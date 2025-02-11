@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테트리스 게임</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 2px solid #000;
+            margin-top: 20px;
+        }
+        #scoreboard {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>테트리스 게임</h1>
+    <div id="scoreboard">
+        <span id="score">점수: 0</span> | 
+        <span id="level">레벨: 0</span>
+    </div>
+    <canvas id="gameCanvas" width="300" height="600"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>

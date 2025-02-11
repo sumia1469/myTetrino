@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 2px solid white;
+    background: black;
+}
+.grp_canvas {
+    background:#eaeaea;
+}
